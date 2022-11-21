@@ -36,20 +36,14 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9QG-pg-Frw">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="9QG-pg-Frw">
                                         <rect key="frame" x="0.0" y="598" width="374" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="3Xd-kg-zdV"/>
                                         </constraints>
-                                        <state key="normal" backgroundImage="choice1Background">
-                                            <attributedString key="attributedTitle">
-                                                <fragment content="Choice 1">
-                                                    <attributes>
-                                                        <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <font key="NSFont" metaFont="system" size="23"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <state key="normal" title="Choice 1" backgroundImage="choice1Background">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">

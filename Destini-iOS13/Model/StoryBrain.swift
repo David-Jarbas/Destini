@@ -61,7 +61,7 @@ struct StoryBrain {
     
     mutating func nextStory(userChoice: String) {
         
-        let currentStory = stories[storyNumber] // variável recebe o array na posição 0
+        let currentStory = stories[storyNumber] // array recebe o var na posição 0
         if userChoice == currentStory.choice1 { // Se o parametro da função for igual a escolha 1 (selecionada apartir da variável)
             storyNumber = currentStory.choice1Destination// choice1Destination gera um valor que é armazenado na varivável currentStory, que por sua vez é armazenado no storyNumber e pula as casas do array de acordo com o número enviado.
         } else if userChoice == currentStory.choice2 {
